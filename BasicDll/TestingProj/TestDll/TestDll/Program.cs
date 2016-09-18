@@ -8,6 +8,8 @@
  *2、在引用里添加了HelloWorldDll程序集，
  *3、文件开始添加了Using HelloWorldDll
  *注：HelloWorldDll是引用的程序集的命名空间，HelloW是该命名空间的一个类， PrintHelloWorld方法是一个静态方法，功能是直接打印"HelloWorld~"
+ *
+ * 查了下，c#是基于.netFramework，是不能生成lib文件的，相对的，c++可以生成lib文件，等回顾c++时再实验吧
  */
 
 using System;
